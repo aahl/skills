@@ -2,6 +2,14 @@
 
 ---
 
+## 📥 Add Skills
+
+```shell
+npx skills add aahl/skills
+```
+
+---
+
 ## 🔍 DuckDuckGo Search ([mcp-duckgo](./skills/mcp-duckgo/SKILL.md))
 Skills for web search and content scraping via DuckDuckGo MCP Server.
 
