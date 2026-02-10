@@ -3,7 +3,7 @@ name: crypto-report
 description: Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain news updates.
 ---
 
-# Skill
+# Cryptocurrency Report
 Executing Shell commands.
 
 ## Get Binance AI analysis report

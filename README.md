@@ -32,3 +32,10 @@ Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain n
 
 ## 🛍️ 买手技能 ([maishou](./skills/maishou/SKILL.md))
 获取商品在淘宝、天猫、京东、拼多多、抖音、快手的最优价格、优惠券的技能，商品价格全网对比。
+
+---
+
+## 🔗 Links
+- https://skills.sh/aahl/skills
+- https://clawhub.ai/u/al-one
+- https://agent-skills.md/authors/aahl
