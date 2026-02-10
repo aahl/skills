@@ -1,8 +1,6 @@
 ---
 name: mcp-duckgo
-description:
-  Skills for web search and content scraping via DuckDuckGo MCP Server.
-  Used when users need online searching and web scraping.
+description: Skills for web search and content scraping via DuckDuckGo MCP Server. Used when users need online searching and web scraping.
 ---
 
 # Skill

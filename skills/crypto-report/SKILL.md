@@ -1,9 +1,6 @@
 ---
 name: crypto-report
-description:
-  Get cryptocurrency market data.
-  Get Binance AI analysis report.
-  Get blockchain news updates.
+description: Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain news updates.
 ---
 
 # Skill
