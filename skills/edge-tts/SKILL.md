@@ -1,5 +1,5 @@
 ---
-name: edge-tts-uvx
+name: edge-tts
 description: |
   Text-to-speech conversion using `uvx edge-tts` for generating audio from text.
   Use when:
