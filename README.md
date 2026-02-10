@@ -10,6 +10,11 @@ npx skills add aahl/skills
 
 ---
 
+## 🗣️ Edge TTS ([edge-tts](./skills/edge-tts/SKILL.md))
+Text-to-speech conversion using `uvx edge-tts` for generating audio from text.
+
+---
+
 ## 🔍 DuckDuckGo Search ([mcp-duckgo](./skills/mcp-duckgo/SKILL.md))
 Skills for web search and content scraping via DuckDuckGo MCP Server.
 
