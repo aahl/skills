@@ -2,11 +2,16 @@
 
 ---
 
-## 📥 Add Skills
+## 📥 Install Skills
 
 ```shell
 npx skills add aahl/skills
 ```
+
+---
+
+## 🏠 Home Assistant ([mcp-hass](./skills/mcp-hass/SKILL.md))
+Control Home Assistant smart home and query states using MCP protocol.
 
 ---
 
