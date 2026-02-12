@@ -1,11 +1,11 @@
 ---
 name: edge-tts
-description: Text-to-speech conversion using `uvx edge-tts` for generating audio from text. Use when: (1) User requests audio/voice output with the "tts" trigger or keyword. (2) Content needs to be spoken rather than read (multitasking, accessibility, driving, cooking). (3) User wants a specific voice, speed, pitch, or format for TTS output.
+description: Text-to-speech conversion using `uvx edge-tts` for generating audio from text. Use when (1) User requests audio/voice output with the "tts" trigger or keyword. (2) Content needs to be spoken rather than read (multitasking, accessibility, driving, cooking). (3) User wants a specific voice, speed, pitch, or format for TTS output.
 ---
 
 # Edge-TTS
 
-Generate high-quality text-to-speech audio using Microsoft Edge's neural TTS service via the node-edge-tts npm package.
+Generate high-quality text-to-speech audio using Microsoft Edge's neural TTS service via the `uvx edge-tts` command.
 Supports multiple languages, voices, adjustable speed/pitch, and subtitle generation.
 
 ## Usage
