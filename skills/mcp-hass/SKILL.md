@@ -1,6 +1,26 @@
 ---
 name: mcp-hass
 description: The skill for control Home Assistant smart home devices and query states using MCP protocol.
+homepage: https://home-assistant.io/integrations/mcp
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🏠",
+        "requires": { "anyBins": ["mcporter", "npx"], "env": ["HASS_ACCESS_TOKEN", "HASS_BASE_URL"] },
+        "primaryEnv": "HASS_ACCESS_TOKEN",
+        "install":
+          [
+            {
+              "id": "node",
+              "kind": "node",
+              "package": "mcporter",
+              "bins": ["mcporter"],
+              "label": "Install mcporter (node)",
+            },
+          ],
+      },
+  }
 ---
 
 # Home Assistant

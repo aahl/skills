@@ -1,6 +1,49 @@
 ---
 name: zai-tts
 description: Text-to-speech conversion using GLM-TTS service via the `uvx zai-tts` command for generating audio from text. Use when (1) User requests audio/voice output with the "tts" trigger or keyword. (2) Content needs to be spoken rather than read (multitasking, accessibility, podcast, driving, cooking). (3) Using pre-cloned voices for speech.
+homepage: https://github.com/aahl/zai-tts
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🗣️",
+        "requires": { "bins": ["uvx"], "env": ["ZAI_AUDIO_USERID", "ZAI_AUDIO_TOKEN"] },
+        "primaryEnv": "ZAI_AUDIO_TOKEN",
+        "install":
+          [
+            {
+              "id": "userid",
+              "kind": "input",
+              "label": "User ID",
+              "description": "Login `audio.z.ai` and executing `JSON.parse(localStorage['auth-storage']).state.user.userId` in the console via F12 Developer Tools",
+              "secret": false,
+              "envVar": "ZAI_AUDIO_USERID",
+            },
+            {
+              "id": "token",
+              "kind": "input",
+              "label": "Auth Token",
+              "description": "Login `audio.z.ai` and executing `JSON.parse(localStorage['auth-storage']).state.token` in the console via F12 Developer Tools",
+              "secret": true,
+              "envVar": "ZAI_AUDIO_TOKEN",
+            },
+            {
+              "id": "uv-brew",
+              "kind": "brew",
+              "formula": "uv",
+              "bins": ["uvx"],
+              "label": "Install uvx (brew)",
+            },
+            {
+              "id": "uv-pip",
+              "kind": "pip",
+              "formula": "uv",
+              "bins": ["uvx"],
+              "label": "Install uvx (pip)",
+            },
+          ],
+      },
+  }
 ---
 
 # Zai-TTS

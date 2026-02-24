@@ -1,6 +1,32 @@
 ---
-name: edge-tts
+name: edge-tts-uvx
 description: Text-to-speech conversion using `uvx edge-tts` for generating audio from text. Use when (1) User requests audio/voice output with the "tts" trigger or keyword. (2) Content needs to be spoken rather than read (multitasking, accessibility, driving, cooking). (3) User wants a specific voice, speed, pitch, or format for TTS output.
+homepage: https://github.com/rany2/edge-tts
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🗣️",
+        "requires": { "bins": ["uvx"] },
+        "install":
+          [
+            {
+              "id": "uv-brew",
+              "kind": "brew",
+              "formula": "uv",
+              "bins": ["uvx"],
+              "label": "Install uvx (brew)",
+            },
+            {
+              "id": "uv-pip",
+              "kind": "pip",
+              "formula": "uv",
+              "bins": ["uvx"],
+              "label": "Install uvx (pip)",
+            },
+          ],
+      },
+  }
 ---
 
 # Edge-TTS
