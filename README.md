@@ -16,7 +16,12 @@ Control Home Assistant smart home and query states using MCP protocol.
 ---
 
 ## 🗣️ Edge TTS ([edge-tts](./skills/edge-tts/SKILL.md))
-Text-to-speech conversion using `uvx edge-tts` for generating audio from text.
+Text-to-speech conversion using Microsoft Edge's TTS service via the `uvx edge-tts` command for generating audio.
+
+---
+
+## 🗣️ ZAI/GLM TTS ([zai-tts](./skills/zai-tts/SKILL.md))
+Text-to-speech conversion using GLM-TTS via the `uvx zai-tts` command for generating audio from text.
 
 ---
 
