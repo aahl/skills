@@ -9,7 +9,7 @@ Control Home Assistant smart home and query states using MCP protocol.
 ## Prerequisites
 Enable MCP server in Home Assistant:
 - Browse to your Home Assistant instance.
-- Go to  Settings > Devices & services.
+- Go to Settings > Devices & services.
 - In the bottom right corner, select the [+ Add Integration](https://my.home-assistant.io/redirect/config_flow_start?domain=mcp) button.
 - From the list, select Model Context Protocol.
 - Follow the instructions on screen to complete the setup.
