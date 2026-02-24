@@ -11,18 +11,18 @@ which can be obtained by login `audio.z.ai` and executing `localStorage['auth-st
 
 ## Usage
 ```shell
-uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.mp3
+uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.wav
 ```
 
 ## Changing speed, volume
 ```shell
-uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.mp3 --speed 1.5
-uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.mp3 --speed 1.5 --volume 2
+uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.wav --speed 1.5
+uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.wav --speed 1.5 --volume 2
 ```
 
 ## Changing the voice
 ```shell
-uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.mp3 --voice system_002
+uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.wav --voice system_002
 ```
 
 ## Available voices
