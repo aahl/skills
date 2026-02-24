@@ -24,7 +24,7 @@ uvx edge-tts --text "{msg}" --write-media {tempdir}/{filename}.mp3 --volume=+50%
 
 ## Changing the voice
 ```shell
-uvx edge-tts --text "{msg}" --write-media {tempdir}/{filename}.mp3 --voice=zh-CN-XiaoxiaoNeural
+uvx edge-tts --text "{msg}" --write-media {tempdir}/{filename}.mp3 --voice zh-CN-XiaoxiaoNeural
 ```
 
 ## Available voices
@@ -62,7 +62,7 @@ zh-CN-shaanxi-XiaoniNeural         Female    Dialect                Bright
 zh-HK-HiuGaaiNeural                Female    General                Friendly, Positive
 zh-HK-WanLungNeural                Male      General                Friendly, Positive
 zh-TW-HsiaoChenNeural              Female    General                Friendly, Positive
-zh-TW-YunJheNeural                 Male      General                Friendly, Positive\
+zh-TW-YunJheNeural                 Male      General                Friendly, Positive
 ```
 
 Retrieve all available voices using shell commands:
