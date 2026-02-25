@@ -30,6 +30,11 @@ Skills for web search and content scraping via DuckDuckGo MCP Server.
 
 ---
 
+## 📚 DeepWiki ([mcp-deepwiki](./skills/mcp-deepwiki/SKILL.md))
+Skills for accessing and searching docs in DeepWiki/GitHub’s public code repositories.
+
+---
+
 ## ₿ Crypto Report ([crypto-report](./skills/crypto-report/SKILL.md))
 Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain news updates.
 
