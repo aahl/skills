@@ -35,7 +35,7 @@ Skills for accessing and searching docs in DeepWiki/GitHub’s public code repos
 
 ---
 
-## ₿ Crypto Report ([crypto-report](./skills/crypto-report/SKILL.md)) ![Require](https://img.shields.io/badge/curl-+?label=bin)
+## ₿ Crypto Report ([crypto-report](./skills/crypto-report/SKILL.md)) ![Require](https://img.shields.io/badge/curl,jq-+?label=bin)
 Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain news updates.
 
 ---
@@ -52,5 +52,7 @@ Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain n
 
 ## 🔗 Links
 - https://skills.sh/aahl/skills
+- https://zread.ai/aahl/skills
+- https://deepwiki.com/aahl/skills
 - https://clawhub.ai/u/al-one
 - https://agent-skills.md/authors/aahl
