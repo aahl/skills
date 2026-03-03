@@ -35,6 +35,11 @@ Skills for accessing and searching docs in DeepWiki/GitHub’s public code repos
 
 ---
 
+## 💼 Lark/FeiShu ([mcp-lark](./skills/mcp-lark/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
+Based on FeiShu(飞书) / Lark's OpenAPI MCP server, manage user information, chats, emails, cloud documents, multidimensional tables, tasks, calendars, etc.
+
+---
+
 ## ₿ Crypto Report ([crypto-report](./skills/crypto-report/SKILL.md)) ![Require](https://img.shields.io/badge/curl,jq-+?label=bin)
 Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain news updates.
 
