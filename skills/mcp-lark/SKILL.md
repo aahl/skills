@@ -12,7 +12,10 @@ Need to login to the Lark MCP Configuration Platform to add MCP services, obtain
 Prioritize fetching from `.env` under the workspace, then use system environment variables. If not configured, ask the user for input and update it to `.env`.
 ```shell
 # Configure multiple MCP service URLs and usage scenarios in environment variables
-LARK_MCP_SERVERS='会话相关:open.larksuite.com/mcp/stream/xxx; 云文档:open.larksuite.com/mcp/stream/yyy'
+LARK_MCP_SERVERS='
+open.larksuite.com/mcp/stream/xxx:Chats and Mails;
+open.larksuite.com/mcp/stream/yyy:Cloud documents;
+'
 ```
 
 ## List of available tools
@@ -27,6 +30,9 @@ npx -y mcporter list 'open.larksuite.com/mcp/stream/<token>' --json | jq '.tools
 ```shell
 npx -y mcporter call 'open.larksuite.com/mcp/stream/<token>.<tool_name>' param1:"value1" foo:"bar"
 ```
+
+## References
+- Sent message content: references/message_create.md
 
 ## About `mcporter`
 To improve compatibility, use `npx -y mcporter` instead of `mcporter` when executing commands.
