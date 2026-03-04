@@ -45,6 +45,11 @@ Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain n
 
 ---
 
+## ⛅ 天气预报 ([tianqi](./skills/tianqi/SKILL.md)) ![Require](https://img.shields.io/badge/curl-+?label=bin)
+查询中国地区的天气预报，支持15天及逐小时预报、各种生活指数。
+
+---
+
 ## 📺 影视技能 ([mcp-vods](./skills/mcp-vods/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
 用于追剧/追番的技能，为AI提供搜索影视播放地址的能力，并支持在小米电视上直接播放。
 
