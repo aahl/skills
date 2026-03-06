@@ -55,6 +55,7 @@ which can be obtained by login `audio.z.ai` and executing `localStorage['auth-st
 ## Usage
 ```shell
 uvx zai-tts -t "{msg}" -o {tempdir}/{filename}.wav
+uvx zai-tts -f path/to/file.txt -o {tempdir}/{filename}.wav
 ```
 
 ## Changing speed, volume

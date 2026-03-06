@@ -25,4 +25,5 @@ metadata: { "openclaw": { "emoji": "📺", "requires": {"bins": ["npx", "uvx"] }
 ## 获取工具列表
 - `npx -y mcporter list --stdio 'uvx mcp-vods' --schema --all-parameters`
 
+部分源站返回的播放地址可能为网页地址(不含.m3u8/.mp4)，无法直接投屏或播放，可通过`curl -sSL "$url"`命令获取真实的播放地址。
 为了更好的兼容性，执行命令时使用`npx -y mcporter`替代`mcporter`。
