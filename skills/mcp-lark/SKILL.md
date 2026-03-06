@@ -1,6 +1,26 @@
 ---
 name: mcp-lark
 description: Based on FeiShu(飞书) / Lark's OpenAPI MCP server, manage user information, chats, emails, cloud documents, multidimensional tables, tasks, calendars, etc.
+homepage: https://github.com/aahl/skills/blob/main/skills/mcp-lark/SKILL.md
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "💼",
+        "requires": { "anyBins": ["mcporter", "npx"], "env": ["LARK_MCP_SERVERS"] },
+        "primaryEnv": "LARK_MCP_SERVERS",
+        "install":
+          [
+            {
+              "id": "node",
+              "kind": "node",
+              "package": "mcporter",
+              "bins": ["mcporter"],
+              "label": "Install mcporter (node)",
+            },
+          ],
+      },
+  }
 ---
 
 # MCP Lark / FeiShu
