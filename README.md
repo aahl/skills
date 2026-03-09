@@ -25,6 +25,11 @@ Text-to-speech conversion using GLM-TTS via the `uvx zai-tts` command for genera
 
 ---
 
+## 🎤 Qwen ASR ([qwen-asr](./skills/qwen-asr/SKILL.md)) ![Require](https://img.shields.io/badge/uv-+?label=bin)
+Transcribe an audio file to text using Qwen ASR. No configuration or API key required.
+
+---
+
 ## 🔍 DuckDuckGo Search ([mcp-duckgo](./skills/mcp-duckgo/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
 Skills for web search and content scraping via DuckDuckGo MCP Server.
 
