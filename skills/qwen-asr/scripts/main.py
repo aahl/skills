@@ -13,7 +13,7 @@ from contextlib import contextmanager, redirect_stdout
 
 _LOGGER = logging.getLogger(__name__)
 _LOGGER.setLevel(logging.INFO)
-BASE_URL = os.getenv("QWEN_ASR_BASE_URL") or "https://qwen-qwen3-asr-demo.ms.show"
+BASE_URL = "https://qwen-qwen3-asr-demo.ms.show"
 USER_AGENT = "Mozilla/5.0 AppleWebKit/537.36 Chrome/143 Safari/537"
 SESSION: aiohttp.ClientSession | None = None
 
