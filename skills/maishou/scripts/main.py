@@ -18,17 +18,25 @@ HEADERS = {
 }
 SESSION: aiohttp.ClientSession | None = None
 
-async def search(keyword, source=1, func=None, **kwargs):
+async def search(keyword, source=0, func=None, **kwargs):
     resp = await SESSION.post(
-        "https://msapi.maishou88.com/api/v1/share/searchList",
-        json={
+        "https://appapi.maishou88.com/api/v1/homepage/searchList",
+        headers={
+            **HEADERS,
+            aiohttp.hdrs.USER_AGENT: "MaiShouApp/3.7.7 (iPhone; iOS 26.3; Scale/3.00)",
+            "openid": "564bdce0fa408fc9e1d5d42fd022ef0b",
+            "version": "3.7.7.2",
+        },
+        data={
+            "isCoupon": 0,
             "keyword": str(keyword),
-            "sourceType": str(source),
-            "inviteCode": INVITE_CODE,
-            "isShare": "1",
+            "openid": "564bdce0fa408fc9e1d5d42fd022ef0b",
+            "order": "desc",
             "page": 1,
-            "isCoupon": False,
-            "token": "",
+            "pddListId": "",
+            "sort": "",
+            "sourceType": str(source),
+            "user_id": "",
             **kwargs,
         },
     )
@@ -41,6 +49,7 @@ async def search(keyword, source=1, func=None, **kwargs):
         {
             "idx": idx,
             "goodsId": v.get("goodsId"),
+            "source": v.get("sourceType"),
             "title": v.get("title"),
             "shopName": v.get("shopName"),
             "originalPrice": v.get("originalPrice"),
