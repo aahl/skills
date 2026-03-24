@@ -45,6 +45,11 @@ Based on FeiShu(飞书) / Lark's OpenAPI MCP server, manage user information, ch
 
 ---
 
+## 🌐 EdgeOne ([edgeone](./skills/edgeone/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
+Deploy HTML content to EdgeOne Pages, return the public URL. No login required, no API key required.
+
+---
+
 ## ₿ Crypto Report ([crypto-report](./skills/crypto-report/SKILL.md)) ![Require](https://img.shields.io/badge/curl,jq-+?label=bin)
 Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain news updates.
 
