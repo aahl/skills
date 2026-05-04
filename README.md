@@ -60,6 +60,11 @@ Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain n
 
 ---
 
+## 📊国家统计局 ([cn-stats](./skills/cn-stats/SKILL.md)) ![Require](https://img.shields.io/badge/curl,jq-+?label=bin)
+中国国家统计局公开数据查询技能。
+
+---
+
 ## 📺 影视技能 ([mcp-vods](./skills/mcp-vods/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
 用于追剧/追番的技能，为AI提供搜索影视播放地址的能力，并支持在小米电视上直接播放。
 
