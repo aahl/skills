@@ -15,6 +15,11 @@ Control Home Assistant smart home and query states using MCP protocol.
 
 ---
 
+## 🏡 Home Assistant Builder ([hass-builder](./skills/hass-builder/SKILL.md)) ![Require](https://img.shields.io/badge/bash,wget-+?label=bin)
+A skill to build and manage Home Assistant configurations. Using [balloob/home-assistant-build-cli](https://github.com/balloob/home-assistant-build-cli).
+
+---
+
 ## 🗣️ Edge TTS ([edge-tts](./skills/edge-tts/SKILL.md)) ![Require](https://img.shields.io/badge/uvx-+?label=bin)
 Text-to-speech conversion using Microsoft Edge's TTS service via the `uvx edge-tts` command for generating audio.
 
