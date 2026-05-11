@@ -15,6 +15,11 @@ Control Home Assistant smart home and query states using MCP protocol.
 
 ---
 
+## 🏡 Home Assistant Builder ([hass-builder](./skills/hass-builder/SKILL.md)) ![Require](https://img.shields.io/badge/bash,wget-+?label=bin)
+A skill to build and manage Home Assistant configurations. Using [balloob/home-assistant-build-cli](https://github.com/balloob/home-assistant-build-cli).
+
+---
+
 ## 🗣️ Edge TTS ([edge-tts](./skills/edge-tts/SKILL.md)) ![Require](https://img.shields.io/badge/uvx-+?label=bin)
 Text-to-speech conversion using Microsoft Edge's TTS service via the `uvx edge-tts` command for generating audio.
 
@@ -45,6 +50,11 @@ Based on FeiShu(飞书) / Lark's OpenAPI MCP server, manage user information, ch
 
 ---
 
+## 🌐 EdgeOne ([edgeone](./skills/edgeone/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
+Deploy HTML content to EdgeOne Pages, return the public URL. No login required, no API key required.
+
+---
+
 ## ₿ Crypto Report ([crypto-report](./skills/crypto-report/SKILL.md)) ![Require](https://img.shields.io/badge/curl,jq-+?label=bin)
 Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain news updates.
 
@@ -52,6 +62,11 @@ Get cryptocurrency market data. Get Binance AI analysis report. Get blockchain n
 
 ## ⛅ 天气预报 ([tianqi](./skills/tianqi/SKILL.md)) ![Require](https://img.shields.io/badge/curl-+?label=bin)
 查询中国地区的天气预报，支持15天及逐小时预报、各种生活指数。
+
+---
+
+## 📊 国家统计局 ([cn-stats](./skills/cn-stats/SKILL.md)) ![Require](https://img.shields.io/badge/curl,jq-+?label=bin)
+中国国家统计局公开数据查询技能，可查询经济、CPI、GDP、人口、房价指数等数据。
 
 ---
 
