@@ -1,6 +1,16 @@
 ---
 name: hass-builder
 description: A skill to build and manage Home Assistant configurations. Use when using the Home Assistant Builder (`hab`) CLI to inspect, create, update, delete, operate, or troubleshoot Home Assistant resources; when a user mentions hab, Home Assistant CLI automation, Lovelace/dashboard edits, helpers, automations, scripts, backups, ESPHome, or Home Assistant operations from a terminal.
+homepage: https://github.com/balloob/home-assistant-build-cli
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🏡",
+        "requires": { "anyBins": ["curl", "wget"], "env": ["HAB_TOKEN", "HAB_URL"] },
+        "primaryEnv": "HAB_TOKEN"
+      },
+  }
 ---
 
 # Home Assistant Builder (hab)
