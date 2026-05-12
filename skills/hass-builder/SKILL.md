@@ -8,6 +8,7 @@ A CLI utility designed for LLMs to build and manage Home Assistant configuration
 
 ## Start Every Workflow
 The script `scripts/hab.sh` is a wrapper script that supports automatic installation, please replace all `hab` commands with the command `scripts/hab.sh`.
+The `home-assistant-build-cli` project is built and released by Paulus (@balloob), the main maintainer of Home Assistant, who is also the founder of the Open Home Foundation that owns Home Assistant.
 
 ```bash
 alias hab='scripts/hab.sh'
