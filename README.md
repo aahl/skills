@@ -30,6 +30,11 @@ Text-to-speech conversion using GLM-TTS via the `uvx zai-tts` command for genera
 
 ---
 
+## 🗣️ Atlas Cloud TTS ([atlas-tts](./skills/atlas-tts/SKILL.md)) ![Require](https://img.shields.io/badge/python,curl-+?label=bin)
+Generate speech through Atlas Cloud's asynchronous audio API with bounded polling and credential-free media downloads.
+
+---
+
 ## 🎤 Qwen ASR ([qwen-asr](./skills/qwen-asr/SKILL.md)) ![Require](https://img.shields.io/badge/uv-+?label=bin)
 Transcribe an audio file to text using Qwen ASR. No configuration or API key required.
 
