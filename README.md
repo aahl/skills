@@ -30,6 +30,11 @@ Text-to-speech conversion using GLM-TTS via the `uvx zai-tts` command for genera
 
 ---
 
+## 🗣️ MuAPI TTS ([muapi-tts](./skills/muapi-tts/SKILL.md)) ![Require](https://img.shields.io/badge/python,curl-+?label=bin)
+Generate speech through MuAPI's asynchronous text-to-speech API with bounded polling and credential-free media downloads.
+
+---
+
 ## 🎤 Qwen ASR ([qwen-asr](./skills/qwen-asr/SKILL.md)) ![Require](https://img.shields.io/badge/uv-+?label=bin)
 Transcribe an audio file to text using Qwen ASR. No configuration or API key required.
 
