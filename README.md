@@ -40,6 +40,11 @@ Skills for web search and content scraping via DuckDuckGo MCP Server.
 
 ---
 
+## 🔎 You.com Search ([mcp-you](./skills/mcp-you/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
+Web search with fresh results and source URLs via the You.com MCP server, plus agent resource discovery. No API key required.
+
+---
+
 ## 📚 DeepWiki ([mcp-deepwiki](./skills/mcp-deepwiki/SKILL.md)) ![Require](https://img.shields.io/badge/npx-+?label=bin)
 Skills for accessing and searching docs in DeepWiki/GitHub’s public code repositories.
 
